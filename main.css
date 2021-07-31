@@ -210,21 +210,14 @@ body {
   text-align: right;
   margin-right: 30px;
 
-  /* display: inline-block;
-  padding-left: 10rem;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: white;
-  font-style: bold;
-  padding-top: 0rem; */
+ 
 }
 .top input {
   padding: 1rem 39rem 1rem 1rem;
   margin-right: 19rem;
 }
 .top {
-  /* display: inline-block;
-  text-align: center; */
+
   width: 33%;
 }
 .top ul li {
@@ -234,9 +227,7 @@ body {
   margin-right: 30px;
   color: #fff;
 }
-/* ul {
-  padding: 1rem 2rem 1rem;
-} */
+
 
 .login {
   background: white;
@@ -245,16 +236,7 @@ body {
   color: var(--bluecolor) !important;
   font-family: "Roboto", sans-serif;
 }
-/* .more {
-  padding: 1rem 4rem 1rem 5rem;
-  color: white;
-  font-style: bold;
-}
-.cart {
-  padding: 1rem 30rem 1rem 0rem;
-  color: white;
-  font-style: bold;
-} */
+
 .logo .flip {
   width:7rem;
   display: block;
@@ -288,7 +270,7 @@ li a {
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 767px){
+@media only screen and (min-width: 360px) and (max-width: 800px){
   .fullnav{
     position: static;
     display: block;
@@ -304,6 +286,7 @@ li a {
     width: 100%;
   }
   .fullnav .top-input input[type="search"]{
+    width: 95%;
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -313,18 +296,22 @@ li a {
     width: 100%;
   }
   .top ul li{
-    margin: 22px;
+    margin: 18px 6px 15px 9px;
   }
   .options{
     display: flex;
     flex-flow:wrap;
     margin-top: unset;
+    padding-right: 4%;
+    padding-left: 5%;
   }
   .box{
     margin-bottom: 10px;
   }
   .headmust h2{
-    width: 72%;
+    width: 70%;
+    font-weight: bold;
+
   }
   .Musthave {
     display: flex;
@@ -341,10 +328,20 @@ li a {
 }
 .selfie h2{
   width: 72%;
+  font-weight: bold;
 }
 .Mobiles{
 flex-flow: wrap;
 } 
 .timg {
 margin: auto;
+}
+.headmust button {
+  padding: 1 rem 1rem;
+  font-size: 0.7rem;
+ }
+
+ .selfie button {
+  padding: 1 rem 1 rem;
+  font-size: 0.7rem;
 }
